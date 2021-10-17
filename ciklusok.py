@@ -37,19 +37,21 @@ for i in range (num):
 
 for i in range (4*"*"):
     print(i, end="")
-    """
+    
 
-for i in range (8, end=""):
-    print("* "*5)
-    for i in range (4):
-        print("*")
-
-
-
-
+for i in range (8):
+    print(("* "*3)*7)
+    for i in range (2):
+        print(("*    ")*9)
+# utolsó sorban hogyan legyen teljes sor?
+"""
 
 #3.feladat:
 
+for i in range(2):
+    num= int(input("Kérek egy egész számot!"))
+    for i in range(num):
+        print(i)
 
 
 #44.feladat:
