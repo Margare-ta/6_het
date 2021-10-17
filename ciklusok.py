@@ -44,15 +44,22 @@ for i in range (8):
     for i in range (2):
         print(("*    ")*9)
 # utolsó sorban hogyan legyen teljes sor?
-"""
+
 
 #3.feladat:
+#változó külön névvel for ciklusban?
+num= int(input("Kérek egy egész számot!"))
+num2= int(input("Kérek egy egész számot!"))
 
-for i in range(2):
-    num= int(input("Kérek egy egész számot!"))
-    for i in range(num):
+if num<num2 or num==num2:
+    for i in range(num,num2+1):
         print(i)
+elif num>num2:
+    for i in range(num2,num+1):
+        print(i)
+"""
 
+#4.feladat
 
 #44.feladat:
 """
