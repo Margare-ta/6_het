@@ -94,13 +94,23 @@ else:
         fact *= n
         n -= 1
     print("adott szám faktoriális eredménye:",fact)
-"""
+
 #8.feladat:
 
-N = int(input("Kérek egy számot!"))
+N = int(input("Kérek egy egész számot!"))
 
 for i in range(1,N+1):
     print(math.pow(i,2))
+"""
+
+#9.feladat:
+N = int(input("Kérek egy számot!"))
+
+for i in range(1,N+1):
+    if (i%2)!=0:
+        print(i,"+", end="", sep="")
+
+#Hogyan is?
 
 
 #44.feladat:
