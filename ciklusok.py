@@ -79,7 +79,7 @@ b= int(input("Kérek egy számot!"))
 for i in range(a,b):
     print(round(math.sqrt(i),2))
 #Ez így jó?
-"""
+
 #7.feladat:
 
 n= int(input("Kérek egy számot!"))
@@ -94,6 +94,14 @@ else:
         fact *= n
         n -= 1
     print("adott szám faktoriális eredménye:",fact)
+"""
+#8.feladat:
+
+N = int(input("Kérek egy számot!"))
+
+for i in range(1,N+1):
+    print(math.pow(i,2))
+
 
 #44.feladat:
 """
