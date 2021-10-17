@@ -66,9 +66,10 @@ for i in range(1,44):
 """
 #5.feladat:
 
+num= int(input("Hanyadik egész számig írja ki a szám köbét a program?"))
 
-
-
+for i in range (1,num+1):
+    print(round(math.pow(i,3)))
 
 #44.feladat:
 """
