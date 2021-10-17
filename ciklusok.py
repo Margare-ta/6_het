@@ -57,9 +57,18 @@ if num<num2 or num==num2:
 elif num>num2:
     for i in range(num2,num+1):
         print(i)
-"""
+
 
 #4.feladat
+
+for i in range(1,44):
+    print(round(math.pow(i,2)),"; ", end="", sep="")
+"""
+#5.feladat:
+
+
+
+
 
 #44.feladat:
 """
