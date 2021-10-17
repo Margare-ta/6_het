@@ -111,12 +111,31 @@ for i in range(1,N):
         sum= sum+i
 print(sum)
 
-"""
-
 #10.feladat:
 
-Kim= int(input("Kérek egy természetes számot!"))
+K= int(input("Kérek egy természetes számot!"))
+sum=0
 
+for i in range(2,K+1):
+    sum= (sum+i)*(i+1)
+print(sum)
+
+#Háát...
+
+#11.feladat:
+
+N=int(input("Kérek egy számot!"))
+
+for i in range(0,N,3):
+        
+    if N<i*12:
+        print(i)
+        if N==i:
+            print(3)
+    else:
+        print(0)
+"""
+#12.feladat
 
 
 #44.feladat:
