@@ -63,13 +63,26 @@ elif num>num2:
 
 for i in range(1,44):
     print(round(math.pow(i,2)),"; ", end="", sep="")
-"""
+
 #5.feladat:
 
 num= int(input("Hanyadik egész számig írja ki a szám köbét a program?"))
 
 for i in range (1,num+1):
     print(round(math.pow(i,3)))
+"""
+#6.feladat:
+
+a= int(input("Kérek egy számot!"))
+b= int(input("Kérek egy számot!"))
+
+for i in range(a,b):
+    print(round(math.sqrt(i),2))
+#Ez így jó?
+
+#7.feladat:
+
+
 
 #44.feladat:
 """
