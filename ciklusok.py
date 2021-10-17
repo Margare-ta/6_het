@@ -112,6 +112,11 @@ for i in range(1,N+1):
 
 #Hogyan is?
 
+#10.feladat:
+
+K= float(input("Kérek egy természetes számot!"))
+
+
 
 #44.feladat:
 """
