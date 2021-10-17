@@ -101,20 +101,21 @@ N = int(input("Kérek egy egész számot!"))
 
 for i in range(1,N+1):
     print(math.pow(i,2))
-"""
+
 
 #9.feladat:
 N = int(input("Kérek egy számot!"))
-
-for i in range(1,N+1):
+sum=0
+for i in range(1,N):
     if (i%2)!=0:
-        print(i,"+", end="", sep="")
+        sum= sum+i
+print(sum)
 
-#Hogyan is?
+"""
 
 #10.feladat:
 
-K= float(input("Kérek egy természetes számot!"))
+Kim= int(input("Kérek egy természetes számot!"))
 
 
 
