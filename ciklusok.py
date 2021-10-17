@@ -34,10 +34,17 @@ for i in range (num):
 print("\n*",text,"*")
 for i in range (num):
     print("*"*i, end="")
-"""
+
 for i in range (4*"*"):
     print(i, end="")
-    
+    """
+
+for i in range (8):
+    print(i, end="")
+    print("* "*5)
+    for i in range (4):
+        print("*")
+
 
 
 
