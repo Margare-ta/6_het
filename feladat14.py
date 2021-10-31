@@ -11,7 +11,7 @@ num=0
 for i in range(1,N+1):
     num=num+1
    
-    print("     \n",num, end="")
+    print("*     \n",num, end="")
     print(i, "|", i, i+1, i+2, end="")
     #Hogyan?
     
